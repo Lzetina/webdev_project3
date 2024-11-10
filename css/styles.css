@@ -1,0 +1,249 @@
+/* styles.css */
+
+/* Importing Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+
+
+/* General Styles that apply to all web pages */
+header {
+  background-color: transparent;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  font-size: 30px
+}
+
+header h3 {
+  font-family: 'Garamond', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+header ul {
+  font-family: 'Garamond', sans-serif;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.5em;
+  color: White;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+ul {
+  text-align: center;
+  margin-left: 1em;
+  list-style: none;
+  color: White;
+  margin-bottom: 1rem;
+}
+
+ul ul {
+  list-style: none;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  width: 50%;
+  float: left;
+  border-style: none;
+}
+
+p {
+  text-align: center;
+  color: white;
+  padding: 0.5%;
+  font-size: large;
+}
+
+/* These apply to all as well*/
+#Intro h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+#Intro p {
+  text-align: center;
+  color: white;
+  
+}
+
+/*Styles that apply to the index.html file*/
+#indexheader nav a:hover {
+  color: Black;
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+#indexbody {
+  font-family: 'Garamond', serif;
+  background-image: url('../images/grid.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  float: none;
+  line-height: 1.6;
+  padding: 2%;
+}
+
+#indexmain {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0.6010737058495270) 0%, rgba(0,0,0,1) 100%);
+  padding: 2%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Contact h3 {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  color: White;
+}
+
+#Contact nav a:hover {
+  color: blue;
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.imageR {
+  width: 20%;
+  max-width: 150px;
+  border-radius: 50%;
+  margin: 1rem auto;
+  display: block;
+}
+
+
+/*Styles that apply to the yugioh tutorial html file*/
+#ytheader nav a:hover {
+  color: Gold;
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+#ytmain {
+  background: rgb(255,135,0);
+  background: linear-gradient(180deg, rgba(255,135,0,1) 0%, rgba(255,255,255,0) 100%);
+  padding: 2%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  background-position: center;
+}
+#Ruleset, #Types, #Magic{
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(255,255,255,0) 100%);
+  padding: 2%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-position: center;
+}
+
+#ytmain p {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#Youtube h3 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#Ruleset p {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+#ytbody {
+  font-family: "Comic Neue", fantasy;
+  background-image: url('../images/cardback.png');
+  float: right;
+  background-size: cover;
+  background-attachment: fixed;
+  line-height: 1.6;
+  padding: 2%;
+
+}
+
+
+/* Styles that apply to the collection.html file*/
+#collectionbody {
+  font-family: "Comic Neue", fantasy;
+  background-image: url('../images/wood.png');
+  background-size: cover;
+  background-attachment: fixed;
+  line-height: 1.6;
+  padding: 2%;
+}
+
+
+#collectionheader nav a:hover {
+  color: burlywood;
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+
+#collectionmain, #Plushies, #Manga, #Cards {
+  background: rgb(114,57,0);
+  background: linear-gradient(180deg, rgba(114,57,0,1) 0%, rgba(255,255,255,0) 100%);
+  padding: 2%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.imageA, .imageB, .imageC, .imageD, .imageE, .imageF {
+  width: 30%; 
+  max-width: 150px; 
+  height: 30%;
+  max-height: 150px;
+  margin: 2rem; 
+  box-shadow: 10px 10px black;
+}
+
+.imageA, .imageC, .imageE {
+  float: right;
+}
+
+.imageB, .imageD, .imageF {
+  float: left;
+}
+
+#collectionmain h2 {
+  text-decoration: underline;
+}
+
+
+
