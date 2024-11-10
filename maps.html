@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="js/script.js" defer></script>
   <title>Project 3 Luis Zetina</title>
 </head>
 <body id = 'mapbody'>
@@ -23,13 +22,13 @@
     <div id="map"></div>
   </div>
   <script>
-    function initmap () {
+    function initMap () {
         const location = {lat: 42.46945559067115, lng: -87.84173509851354 };
 
         const showmap = google.maps.Map(document.getElementById("map"),{
             center: location,
             zoom: 22,
-		    mapTypeId: google.maps.MapTypeId.SATELLITE,
+		        mapTypeId: google.maps.MapTypeId.SATELLITE,
         });
 
         const marker = new google.maps.Marker({
@@ -59,6 +58,6 @@
       
     }
   </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&libraries=maps&v=beta" async defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnszNc4QTg9YVufMA0pHSxsf_2eYwyQro&callback=initMap" async defer></script>
 </body>
 </html>

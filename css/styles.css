@@ -245,5 +245,9 @@ p {
   text-decoration: underline;
 }
 
+#mapbody {
+  background-color: black;
+}
+
 
 
