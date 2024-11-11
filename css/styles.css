@@ -141,6 +141,54 @@ p {
   display: block;
 }
 
+@media (min-width: 600px) {
+  #indexheader {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  #indexmain {
+    padding: 2em;
+  }
+
+  #Skillset, #Education, #Professional-Experience {
+    padding: 0.5em;
+  }
+
+  #Contact {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+  }
+
+  .imageR {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1200px){
+  #indexheader {
+    max-width: 700px;
+    margin: auto;
+  }
+
+  #index main {
+    font-size: larger;
+  }
+
+  #contact {
+    content: normal;
+    font-size: large;
+  }
+
+  .imageR{
+    width: 60%;
+  }
+
+  #Skillset, #Education, #Professional-Experience {
+    padding: 2em;
+  }
+}
 
 /*Styles that apply to the yugioh tutorial html file*/
 #ytheader nav a:hover {
@@ -245,7 +293,7 @@ p {
   text-decoration: underline;
 }
 
-/* Styles that apply to the collection.html file*/
+/* Styles that apply to the maps.html file*/
 .wrapper {
   display: flex;
   justify-content: center;
