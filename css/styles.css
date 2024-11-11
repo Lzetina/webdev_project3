@@ -245,17 +245,42 @@ p {
   text-decoration: underline;
 }
 
+/* Styles that apply to the collection.html file*/
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+#mapmain {
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(0,80,255,1) 43%, rgba(0,0,0,1) 100%); 
+}
+
 #mapbody {
-  background-color: black;
+  background-image: url('../images/mapimage.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  float: none;
+  line-height: 1.6;
+  padding: 2%;
 }
 
 #map {
   width: 50%;
   height: 400px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
 }
+
+#mapheader nav a:hover {
+  color: Blue;
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+
+
 
 
 
