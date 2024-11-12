@@ -272,7 +272,7 @@ p {
 }
 
 
-.imageA, .imageB, .imageC, .imageD, .imageE, .imageF {
+#imageA, #imageB, #imageC, #imageD, #imageE, #imageF {
   width: 30%; 
   max-width: 150px; 
   height: 30%;
@@ -281,12 +281,17 @@ p {
   box-shadow: 10px 10px black;
 }
 
-.imageA, .imageC, .imageE {
+#imageA, #imageC, #imageE {
   float: right;
 }
 
-.imageB, .imageD, .imageF {
+#imageA {
+  visibility: hidden;
+}
+
+#imageB, #imageD, #imageF {
   float: left;
+  visibility: hidden;
 }
 
 #collectionmain h2 {
